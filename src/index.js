@@ -9,7 +9,7 @@ import store from "./store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* smililar behaviour to the context api*/}
+    {/* similar behaviour to the context api*/}
     <Provider store={store}>
       <App />
     </Provider>
